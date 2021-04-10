@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200&family=Kumbh+Sans:wght@300;500&family=Poppins:wght@300;500&display=swap');
+
+body{
+    background-color: #17181c!important;
+    color: white!important;
+    overflow: overlay;
+    overflow-x: hidden;
+    
+}
+
+
+@media only screen and (max-width: 768px) {
+    .container-fluid{
+        margin: 0!important;
+        min-height: 100vh;
+    }
+
+    .col-sm-2,.col-sm-8{
+        width: auto!important;
+    }
+
+    .project_offset{
+        margin-top: 0;
+        margin-bottom: 12vh;
+
+    }
+
+    .contact{
+        font-size: 1.5rem !important;
+        line-height: 2.2rem;
+    }
+
+    .g, .a, .b{
+        display: none!important;
+    }
+  }
+
+
+  @media only screen   
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+{ 
+    .contact{
+        font-size: 3.9rem !important;
+        line-height: 5rem;
+    }
+
+}  
+
+
+
+.container-fluid{
+    /* margin: 20vh 2vh!important; */
+    min-height: 100vh;
+}
+
+.arrow{
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+}
+
+.title{
+    margin: auto 0;
+    margin-right: auto;
+    text-align: start;
+}
+
+.project_offset{
+    margin-top: 10vh
+}
+
+.thumbnail{
+    width: 90%;
+    margin: auto;
+    margin-top: 2vh;
+
+}
+
+.section{
+    min-height: 100vh;
+}
+
+
+.overlay {
+    background-image: url("https://i.imgur.com/esoGQSU.gif");
+    height: 94%;
+    width: 90%;
+    opacity: 0.15;
+    margin: auto;
+    margin-top: 2vh;
+    z-index: 10;
+    position: absolute;
+    transition: all ease-in-out 0.7s;
+}
+
+
+svg{
+    transition: all ease-in-out 2s;
+    stroke-dasharray: 480;
+    stroke-dashoffset: 0;
+    position: absolute;
+    top:-45%;
+    animation: mymove ease-in-out 4s;
+    
+}
+
+
+
+
+@keyframes mymove {
+    0%   {stroke-dashoffset: 480;}
+    100% {stroke-dashoffset: 0;}
+}
+
+
+.flex-fill {
+    flex: 1!important;
+  }
+
+.cerchio:hover .overlay{
+    opacity: 0;
+
+}
+
+  
+.cerchio{
+  position: relative;
+  cursor: pointer;
+  outline: 0;
+}
+
+
+  
+.cursor-wrap{
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+.cursor{
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  z-index: 5!important;
+}
+
+.about, .desc{
+    padding: 0 5vw;
+    /* font-family: 'Kumbh Sans', sans-serif; */
+font-family: 'Poppins', sans-serif;
+font-weight: 500;
+}
+
+.desc{
+    position: inherit;
+    z-index: -1;
+    height: 100vh;
+}
+.desc p{
+    font-size: 70%;
+}
+
+.about img{
+    top: 70%;
+    position: absolute;
+    /* z-index: -10; */
+}
+
+.contact{
+    font-size: 5rem;
+    color: white;
+    z-index: 2;
+    position: relative;
+}
+
+
+.list-group-item,.list-group,.list-group-flush{
+    background-color: transparent!important;
+    color: white;
+    border-top: white;
+}
+
+
+.list-group-flush .list-group-item{
+    padding-left: 0px!important;
+    border-bottom: solid 1px #fff!important;
+    transition: all ease-in-out 0.2s;
+}
+
+.list-group-flush .list-group-item:hover{
+    color: #17181c;
+    padding-left: 7px!important;
+    background-color: rgba(255, 255, 255, 0.815)!important;
+    border-bottom: solid 1px #fff!important;
+}
+
+.link{
+    margin-top: 7px;
+    color: #7d7f8d;
+    font-size: 80%;
+    font-weight: 500;
+}
+
+.links{
+    position: relative;
+    top: 40vh;
+}
+
+
+.works{
+    margin-top: 20vh;
+}
+
+.g{
+    height: 50vh;
+    width: 70vh;
+    position: absolute;
+    
+    right: -10vh;
+
+}
+
+.a{
+    height: 50vh;
+    width: 70vh;
+    position: absolute;
+    right: -15vh;
+    z-index: -1;
+}
+
+.b{
+    height: 60vh;
+    width: 70vh;
+    position: absolute;
+    right: -30vh;
+    top: -10vh;
+}
+
+.spline-watermark{
+    display: none!important;
+    width: 0px!important;
+
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+    left: -25px;
+
+
+  }
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    left: -25px;
+
+    background: rgba(0, 0, 0, 0.74);
+  }
+  
+  ::-webkit-scrollbar-track {
+   
+
+    background: rgba(0, 0, 0, 0);
+  }

@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   font-family: 'Mulish', sans-serif;;
+   overflow: overlay;
+}
+
+.intro{
+    height: 100vh;
+}
+
+.intro video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.intro h1{
+  
+  font-family: 'Mulish', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 5vw;
+    color: white;
+}
+
+/* .section{
+  min-height: 100vw;
+} */
+
+.multiscroll-menu{
+  color: white!important;
+  position: fixed;
+  z-index: 2;
+  left: 5.2vw;
+  top: 5.4vw;
+  list-style-type:none;
+}
+
+h4 a{
+  color: transparent!important;
+  text-decoration: none!important;
+  font-family: 'Mulish', sans-serif;
+}
+
+li a{
+  color: transparent!important;
+  text-decoration: none!important;
+  font-family: 'Mulish', sans-serif; font-size: 1vw;
+  transition:  0.5s ease;
+}
+
+.active{
+  color: transparent!important;
+  text-decoration: none!important;
+  font-size: 1.1vw;
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 768px) {
+  
+.section-text {
+  color: white;
+  position: fixed;
+  z-index: 3;
+  left: 6.2vw;
+  bottom: 5.4vw;
+  width: 38.6vw;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  font-family: 'Mulish', sans-serif; 
+
+}
+
+li a{
+  color: rgba(255, 255, 255, 0.5)!important;
+}
+.active{
+  color: white!important;
+}
+
+h4 a{
+  color: white!important;
+}
+  
+}
+
+
+img{
+  height:50vh;
+}
+
+.section-text {
+  padding: 5vh 2vh;
+  color: white;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  font-family: 'Mulish', sans-serif;
+  font-size: 1.5vw!important;
+}
+
+h2{
+  line-height: 130%;
+  letter-spacing: -0.025em;
+  margin: 0;
+}
+
+
+
+.row{
+    min-height: 100vh!important;
+    margin:0!important;
+}
+
+.half-left,.half-right{
+    min-height: 100%;
+}
+
+.half-right{
+  align-items: center;
+}
+
+.fadeInSectionText {
+  opacity: 1!important;
+}
+
+.fadeOut {
+  opacity: 0;
+}
+
+.color-mashroom {
+    background-color: #B0A097;
+  }
+  .color-lightBrown {
+    background-color: #D8D3CA;
+  }
+  .color-blue {
+    background-color: #868286;
+  }
+  .color-green {
+    background-color: #37383D;
+  }
+  .color-yellow {
+    background-color: #FAEB33;
+  }
+  .color-orange {
+    background-color: #F19031;
+  }
+  .color-red {
+    background-color: #F2293A;
+  }
+
+  body {
+    color: #000;
+    background-color: orange;
+    transition: background-color 1s ease;
+  }
+
+
+  
+::-webkit-scrollbar {
+  width: 5px;
+  height: 10px;
+  left: -25px;
+
+
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  left: -25px;
+
+  background: rgba(0, 0, 0, 0.74);
+}
+
+::-webkit-scrollbar-track {
+ 
+
+  background: rgba(0, 0, 0, 0);
+}
