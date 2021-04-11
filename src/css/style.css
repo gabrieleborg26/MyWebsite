@@ -34,15 +34,31 @@ body{
     .g, .a, .b{
         display: none!important;
     }
+
+    .links{
+        /* position: relative; */
+        top: 0vh!important;
+    }
+
+    .first{
+        display: none;
+    }
+    .second{
+        display: block!important;
+    }
+    
   }
 
+  .second{
+    display: none;
+  }
 
   @media only screen   
   and (min-device-width: 1200px) 
   and (max-device-width: 1600px) 
 { 
     .contact{
-        font-size: 3.9rem !important;
+        font-size: 7vh!important;
         line-height: 5rem;
     }
 
@@ -106,12 +122,15 @@ svg{
 }
 
 
-
+a:hover{
+    text-decoration:none!important;
+}
 
 @keyframes mymove {
     0%   {stroke-dashoffset: 480;}
     100% {stroke-dashoffset: 0;}
 }
+
 
 
 .flex-fill {
@@ -123,7 +142,11 @@ svg{
 
 }
 
-  
+.about img{
+    height: 50vh;
+}
+
+
 .cerchio{
   position: relative;
   cursor: pointer;
@@ -146,7 +169,7 @@ svg{
 }
 
 .about, .desc{
-    padding: 0 5vw;
+    /* padding: 0 2vw; */
     /* font-family: 'Kumbh Sans', sans-serif; */
 font-family: 'Poppins', sans-serif;
 font-weight: 500;
@@ -155,10 +178,10 @@ font-weight: 500;
 .desc{
     position: inherit;
     z-index: -1;
-    height: 100vh;
 }
 .desc p{
-    font-size: 70%;
+    font-size: 90%;
+    height: 30vh;
 }
 
 .about img{
@@ -227,6 +250,7 @@ font-weight: 500;
     position: absolute;
     right: -15vh;
     z-index: -1;
+    top:10vh;
 }
 
 .b{

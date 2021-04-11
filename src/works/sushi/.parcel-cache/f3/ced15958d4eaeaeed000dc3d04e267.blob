@@ -1,0 +1,7 @@
+var _locomotiveScroll = require('locomotive-scroll');
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+var _locomotiveScrollDefault = _parcelHelpers.interopDefault(_locomotiveScroll);
+const scroll = new _locomotiveScrollDefault.default({
+  el: document.querySelector('[data-scroll-container]'),
+  smooth: true
+});

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.HASH_REF_8a6e625a6f078c797be837fbf556d9ac.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;600&display=swap" rel="stylesheet">
+    <title>Zen Sushi</title>
+</head>
+
+
+
+<body>
+
+
+    <div id="loading">
+
+    </div>
+
+    <img id="zen" src="/zen.HASH_REF_0b4626fd21b8ba077ac416a6e3f0fa03.png" width="500">
+    <img id="logo" src="/logo.HASH_REF_94ba6b36f9ba551e90f1ccdcf74eab89.png" width="200">
+
+
+    <img id="salmon" src="/Salmon.HASH_REF_6cb10be88c9ecabaf5e07e112d62c0f8.png">
+
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+    </ul>
+
+    <div data-scroll-container="" class="content">
+        <div data-scroll-section="" class="row justify-content-center">
+            <div class="col-md-5">
+
+
+                <br>
+                <br> <br>
+                <br>
+
+                <div class="panel">
+
+                    <div id="shop">
+                        <span class="badge badge-danger">2</span>
+                        <i class="fa fa-shopping-cart"></i>
+                    </div>
+
+
+                    <div class="row justify-content-center mb-5">
+                        <div class="col-md-5">
+                            Taste
+                            <h1>Fresh Healthy Delicious Sushi</h1>
+                            <p> We’re all about fresh, flavoursome, authentic food.</p>
+
+
+                            <button class="button">&nbsp;View Menu &nbsp; &nbsp; → &nbsp;</button>
+                        </div>
+                        <div data-scroll="" class="col-md-5">
+
+                            <img id="salad" src="/salad.HASH_REF_919b0ee59dc6c59b8d8e0e038bff3e7c.png">
+
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center mb-5">
+                        <div class="col-sm-3 col-md-3 smallPanel">
+                            <img class="float" src="/Genki.HASH_REF_43e7afa551a9addaabe4fcdf062017bd.png">
+                            <h5>Genki</h5>
+                            <p style="font-size: 12px; margin-bottom:7px;
+">Tuna, spring onions, cucumber</p>
+                            <h6>€ 8.50</h6>
+                            <div class="add"> + </div>
+                        </div>
+                        <div class="col-sm-3 col-md-3 smallPanel ">
+                            <img class="float" src="/Dyn.HASH_REF_56106cb3ea35c3cfbfa741088fd64465.png">
+                            <h5>Dynamite</h5>
+                            <p style="font-size: 12px; margin-bottom:7px;
+">Black rice, Avocado, Beetroot</p>
+                            <h6>€ 6.50</h6>
+                            <div class="add"> + </div>
+
+                        </div>
+
+                        <div class="col-sm-5 col-md-5 align-self-center my-5 ml-md-2 p-md-0">
+
+                            <h5 style="font-size: 17px;
+"> The best sushi restaurant for delectable sushi delights,
+                                sashimi & more.</h5>
+
+                            <p> We have a great admiration and respect for the sushi masters who have done it for
+                                thousands of years before us. </p>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center mt-5">
+                        <div class="col-md-4 p-0 mt-5">
+                            <h5 style="font-size: 17px;
+">Try our new salmon combo of Fresh Salmon Fish</h5>
+
+                            <p> We’re inspired by their quest for perfection and we work hard to mirror their commitment
+                                to precision. </p>
+
+
+                        </div>
+                        <div class="col-md-6 ">
+                            <img id="combo" src="/combo.HASH_REF_780a242c9d4743e56c859fca8e100e39.png">
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-5 offset-md-1">
+
+                <div class="panel">
+
+                    <div class="row justify-content-center mt-5">
+                        <div class="col-md-5 mt-5 p-0">
+                            <h5>We specialize in modern Asian food</h5>
+                            <p> We owe our success to our sushi artisans who expertly handcraft our fresh products in
+                                store
+                                daily.</p>
+
+
+                            <button class="button">&nbsp;View More &nbsp; &nbsp; → &nbsp;</button>
+                        </div>
+                        <div class="col-md-5">
+
+                            <img src="/Chicken-Wrap-1.HASH_REF_56a75f190d75ce08f2693fdc3b1f65f6.png" width="320">
+
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="row justify-content-center mt-5">
+
+                        <div class="col-md-5 mt-5">
+
+                            <img id="app" src="/app.HASH_REF_0fe86dcc11176c79eecea48efc94e7ac.png" height="320" style="box-shadow: 5px 5px 20px -15px rgb(170,170,170);border-radius:2vh;
+">
+
+                        </div>
+
+
+                        <div class="col-md-5 mt-5 p-0 align-self-center">
+                            <h4>Available on App Store</h4>
+                            <p> Download now to keep up to date</p>
+
+                            <div>
+                                <img src="/basic.HASH_REF_70b46321593bfa5b9e580ea53bd6cbed.png" width="100">
+                                <img src="/basicG.HASH_REF_1f1262b093a3ae6f8b60b41b70761028.png" width="100">
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+
+                    <div class="row justify-content-center mt-5">
+
+                        <div class="col-md-10 mt-5">
+                            Let's Talk
+
+                            <h4>Want to Reserve a table?</h4>
+                            <button class="btnb">&nbsp;Contact Us &nbsp; &nbsp; → &nbsp;</button>
+
+
+                            <hr>
+
+                            <p>Book a table by choosing the required table according to the number of people, along with
+                                your arrival time.</p>
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <img id="chop" src="/black_chopsticks_3_1200x1200.HASH_REF_7c859424d37334dff75df81f3c5df9fe.png">
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+    
+
+</body>
+
+</html><script src="/index.HASH_REF_1cf92b8ac789bf0c8bd4b6d53ebff041.js"></script>

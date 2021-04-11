@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel src/index.html",
-    "prod": "parcel build src/index.html"
+    "start": "forever start --minUptime 1000 --spinSleepTime 1000 app.js",
+    "stop":  "forever stop app.js"
   },
   "keywords": [],
   "author": "",
