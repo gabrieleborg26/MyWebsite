@@ -9,10 +9,19 @@
 body{
     background-color: #DFE1EE!important;
     font-family: 'Poppins', sans-serif!important;
-    overflow-x: hidden;
+    overflow-x: hidden!important;
+    animation: over ease-in-out 3s;
 
 }
 
+@keyframes over {
+    0%   {overflow: hidden; }
+    25%  {overflow: hidden;}
+    40%  {overflow: hidden;}
+    99%  {overflow: hidden;}
+
+    100% {overflow:  auto;}
+  }
 
 
 #loading{
@@ -20,13 +29,13 @@ body{
     z-index: 2;
     background-color: #555047;
     width: 0vw;
-    height: 100vh;
+    height: 102vh;
     animation: load ease-in-out 3s;
 
 }
 
 @keyframes load {
-    0%   {width: 100vw;}
+    0%   {width: 100vw; }
     25%  {width: 50vw;}
     40%  {width: 50vw;}
     100% {width: 00vw;}
@@ -35,9 +44,9 @@ body{
 
 @keyframes logoload {
 0%   {margin-left: -10vw;}
-25%  {margin-left: 40vw;}
-40%  {margin-left: 40vw;}
-100% {margin-left: -10vw;}
+25%  {margin-left: 37vw;}
+40%  {margin-left: 37vw;}
+100% {margin-left: -15vw;}
 }
 
   
@@ -56,6 +65,7 @@ body{
     position: absolute;
     margin-left: 50%;
     margin-top: -10vh;
+    height: 5vh;
     z-index: 1;
     transform: translate(-50%,-50%);
     animation:  zenload ease-in-out 3s, zenload2 ease 1.7s;
@@ -66,6 +76,8 @@ body{
 #logo{
     position: absolute;
     margin-left: -10vw;
+    height: 10vh;
+
     margin-top: 50vh;
     z-index: 3;   
     transform: translate(-50%,-50%);
@@ -192,7 +204,10 @@ h6{
 
 @media only screen and (max-width: 768px) {
 
-
+    ul{
+        margin-right: auto !important;
+        right: 5vw!important;
+    }
     .smallPanel{
     margin: 10vh 3vh!important;
     }
@@ -231,7 +246,7 @@ h6{
     position: absolute;
     z-index: 4;
     width: 20vw;
-    margin-top: -20vh;
+    margin-top: -15vh;
     margin-left: 20vh;
 
     transform: rotateZ(-50deg);
@@ -264,7 +279,7 @@ ul {
     overflow: hidden;
     margin-top: 4vh!important;
     right: 0;
-    margin-right: 10vh!important;
+    margin-right: 10vh;
     /* animation-delay: 6s; */
 
   }
@@ -311,9 +326,32 @@ ul {
 #chop{
 
     position: relative;
-    right:-7vw;
-    top: -10vw;
-    width: 50vw;
-    overflow: hidden;
+    right:-12vw;
+    top: -10vh;
+    width: 40vh;
+    overflow: hidden!important;
 
 }
+
+
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+    left: -25px;
+
+
+  }
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    left: -25px;
+
+    background: rgba(0, 0, 0, 0.74);
+  }
+  
+  ::-webkit-scrollbar-track {
+   
+
+    background: rgba(0, 0, 0, 0);
+  }

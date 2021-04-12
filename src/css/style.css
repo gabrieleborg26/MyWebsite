@@ -68,7 +68,7 @@ body{
 
 .container-fluid{
     /* margin: 20vh 2vh!important; */
-    min-height: 100vh;
+    min-height: auto;
 }
 
 .arrow{
@@ -197,7 +197,9 @@ font-weight: 500;
     position: relative;
 }
 
-
+.nav .list-group-item{
+    border: none !important;
+}
 .list-group-item,.list-group,.list-group-flush{
     background-color: transparent!important;
     color: white;
@@ -228,6 +230,7 @@ font-weight: 500;
 .links{
     position: relative;
     top: 40vh;
+    margin-bottom: 5vh!important;
 }
 
 
@@ -265,6 +268,15 @@ font-weight: 500;
     display: none!important;
     width: 0px!important;
 
+}
+.video_int{
+    border-radius: 2vh;
+    margin: auto;
+    width: 100%;
+}
+
+.vid_container{
+    padding: 7vh;
 }
 
 ::-webkit-scrollbar {
