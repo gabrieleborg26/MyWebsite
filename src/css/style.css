@@ -100,7 +100,7 @@ body{
 
 .overlay {
     background-image: url("https://i.imgur.com/esoGQSU.gif");
-    height: 94%;
+    /* height: 94%; */
     width: 90%;
     opacity: 0.15;
     margin: auto;

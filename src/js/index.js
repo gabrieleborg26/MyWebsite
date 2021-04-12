@@ -7,8 +7,27 @@ const scroll = new LocomotiveScroll({
 });
 
 
+setTimeout(function(){ 
 
+  
+var h = document.getElementsByClassName('thumbnail')[0].height;
+document.getElementsByClassName('overlay')[0].style.height=h+"px";
 
+console.log(h3)
+var h1 = document.getElementsByClassName('thumbnail')[1].height;
+document.getElementsByClassName('overlay')[1].style.height=h1+"px";
+
+console.log(h1, document.getElementsByClassName('thumbnail'))
+
+var h2 = document.getElementsByClassName('thumbnail')[2].height;
+document.getElementsByClassName('overlay')[2].style.height=h2+"px";
+
+console.log(h2)
+
+var h3 = document.getElementsByClassName('thumbnail')[3].height;
+document.getElementsByClassName('overlay')[3].style.height=h3+"px";
+
+}, 100);
 
 var cerchio = document.querySelectorAll('.cerchio');
 
