@@ -81,8 +81,8 @@ addEventListener('load', function(){
 
 
     //   doc.querySelector('.outer-container').style.top =  htm.scrollTop > 3050 ? "-40vh" : "0vh";
-      doc.querySelector('.outer-container').style.margin =  htm.scrollTop > document.body.scrollHeight-1200 ? "0vh "+5+"vh "+50+"vh " : "0vh";
-
+      doc.querySelector('.outer-container').style.margin =  htm.scrollTop > document.body.scrollHeight-1200 ? "0vh "+0+"vw "+50+"vh " : "0vh";
+      doc.querySelector('.outer-container').style.boxShadow =  htm.scrollTop > document.body.scrollHeight-1200 ? "0px 20px 30vh rgba(0,0,0,1)" : none;
         console.log(htm.scrollTop , document.body.scrollHeight-950)
     //   doc.querySelector('.last').style.top =  htm.scrollTop > 3250 ? "0px" : "-500px";
 
